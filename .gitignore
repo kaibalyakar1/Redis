@@ -1,4 +1,28 @@
 /*************  ✨ Windsurf Command ⭐  *************/
-node_modules
+# Ignore node modules and environment variables
+node_modules/
 .env
-/*******  afdab5c9-9638-4b1b-a20d-1d9a6bad4d73  *******/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build and cache directories
+dist/
+build/
+.cache/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+/*******  cbf87a77-472e-4c31-9911-df20dd715893  *******/
